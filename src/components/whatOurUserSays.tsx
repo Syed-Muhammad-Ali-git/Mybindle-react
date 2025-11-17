@@ -13,7 +13,7 @@ const whatOurUserSays = () => {
 
       {/* cards */}
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-[80%] pb-12">
+      <div className="grid grid-cols-1 2xl:grid-cols-3 what-user-grid gap-6 w-[80%] pb-12">
         <div className="card-user-says card ">
           <img src={starsImg} alt="stars" className="pr-20 pb-2" />
           <h1 className="font-medium text-xl text-left">
@@ -155,7 +155,7 @@ const whatOurUserSays = () => {
       </div>
       <div className="flex justify-center items-center m-auto">
         <button
-          className="card-user-says w-50 h-15 rounded font-semibold text-[#FF5349] text-2xl"
+          className="card-btn w-50 h-15 rounded font-semibold text-[#FF5349] text-2xl"
           style={{ marginBottom: "80px" }}
         >
           See More

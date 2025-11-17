@@ -2,7 +2,7 @@
 
 A modern social platform built with React, TypeScript, and Vite. MyBindle is designed to help users stay connected, build communities, and share meaningful experiences.
 
-This project is a clone of a Figma design, available at [https://mybindle-react-sigma.vercel.app/](https://mybindle-react-sigma.vercel.app/).
+This project is a clone of a this Figma design , available at [https://mybindle-react-sigma.vercel.app/](https://mybindle-react-sigma.vercel.app/).
 
 ## Features
 
