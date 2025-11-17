@@ -4,3 +4,28 @@
     max-width: 1920px;
     margin: auto;
 }
+
+.card-style {
+    box-shadow:
+        -5px -5px 20px rgba(255, 255, 255, 1.0),
+        5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.card-p {
+    font-weight: 500;
+    font-size: 12px
+}
+
+@layer components {
+    .card {
+        @apply max-w-80  p-4 rounded-xl text-center
+    }
+
+    .card-h1 {
+        @apply pb-3 pt-2 font-semibold text-2xl
+    }
+
+    .main-heading {
+        @apply font-semibold text-5xl
+    }
+}

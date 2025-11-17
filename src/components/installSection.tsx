@@ -1,0 +1,39 @@
+//  install section component 4th
+
+const InstallSection = () => {
+  return (
+    <section className="bg-[#F2F2F2] pt-20">
+      {/* headings */}
+      <div className="text-center w-[90%]">
+        <h1 className="main-heading pb-7">How to Install Our App</h1>
+        <h2 className="pb-12 font-semibold">
+          Getting started is quick and easy! Follow these simple steps to
+          install and start using MyBindle today.
+        </h2>
+      </div>
+
+      <div>
+        {/* cards */}
+
+        <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] pb-12">
+          <div className="card-style card w-70 h-30">
+            <h1 className="card-h1">Download </h1>
+            <p className="card-p">Open Play Store or App Store</p>
+          </div>
+
+          <div className="card-style card w-70 h-30">
+            <h1 className="card-h1">Install App </h1>
+            <p className="card-p">The app will install automatically.</p>
+          </div>
+
+          <div className="card-style card w-70 h-30">
+            <h1 className="card-h1">Ready to Use</h1>
+            <p className="card-p">Sign up or log in to start exploring!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default InstallSection;
