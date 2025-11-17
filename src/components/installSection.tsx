@@ -16,18 +16,27 @@ const InstallSection = () => {
         {/* cards */}
 
         <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] pb-12">
-          <div className="card-style card w-70 h-30">
-            <h1 className="card-h1">Download </h1>
+          <div className="card-style card w-70">
+            <h1 className="card-h1">
+              <span className="text-[#FF5349]">Step 1.</span> <br /> Download
+            </h1>
             <p className="card-p">Open Play Store or App Store</p>
           </div>
 
-          <div className="card-style card w-70 h-30">
-            <h1 className="card-h1">Install App </h1>
+          <div className="card-style card w-70">
+            <h1 className="card-h1">
+              Step 2.
+              <br />
+              Install App
+            </h1>
             <p className="card-p">The app will install automatically.</p>
           </div>
 
-          <div className="card-style card w-70 h-30">
-            <h1 className="card-h1">Ready to Use</h1>
+          <div className="card-style card w-70">
+            <h1 className="card-h1">
+              Step 3. <br />
+              Ready to Use
+            </h1>
             <p className="card-p">Sign up or log in to start exploring!</p>
           </div>
         </div>
