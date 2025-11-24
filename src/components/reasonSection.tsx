@@ -33,7 +33,7 @@ const ReasonSection = () => {
         </div>
 
         {/* right side */}
-        <div className="flex ">
+        <div className="flex flex-wrap gap-5">
           <img
             src={lastImgHalf}
             alt="payment phone image"

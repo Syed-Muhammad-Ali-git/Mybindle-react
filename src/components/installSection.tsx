@@ -4,7 +4,7 @@ const InstallSection = () => {
   return (
     <section className="bg-[#F2F2F2] pt-20">
       {/* headings */}
-      <div className="text-center w-[90%]">
+      <div className="text-center w-[90%] max-w-3xl mx-auto">
         <h1 className="main-heading pb-7">How to Install Our App</h1>
         <h2 className="pb-12 font-semibold">
           Getting started is quick and easy! Follow these simple steps to
@@ -15,8 +15,8 @@ const InstallSection = () => {
       <div>
         {/* cards */}
 
-        <div className="flex flex-wrap justify-center items-center gap-6 w-[80%] pb-12">
-          <div className="card-style card w-70">
+        <div className="flex flex-wrap justify-center items-center gap-6 w-full max-w-5xl mx-auto pb-12">
+          <div className="card-style card">
             <h1 className="card-h1">
               <span className="text-[#FF5349]">Step 1.</span> <br /> Download
             </h1>

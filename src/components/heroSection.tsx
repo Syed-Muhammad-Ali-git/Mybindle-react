@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section className="bg-[#FF5349] min-h-[640px]">
       {/* header section images */}
 
-      <header className="flex items-center justify-between px-4 py-4 md:px-8 lg:px-125">
+<header className="flex flex-wrap items-center justify-center gap-2 px-4 py-4 md:justify-between md:px-8 lg:px-32">
         <img src={logo} alt="mybindle logo" className="h-8 md:h-10 lg:h-12" />
         <img src={logoText} alt="my bindle" className="h-8 md:h-10 lg:h-12" />
       </header>

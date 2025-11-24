@@ -5,7 +5,7 @@ import clickSectionImage from "../assets/images/Group 3.png";
 const ClickSection = () => {
   return (
     <section className="bg-[#F2F2F2] pt-20">
-      <div className="flex justify-center items-center flex-col lg:flex-row flex-wrap w-[90%]">
+      <div className="flex justify-center items-center flex-col lg:flex-row flex-wrap w-[90%] max-w-6xl mx-auto">
         {/* mobil image left */}
 
         <div className="md:w-[50%] pb-7">
@@ -18,7 +18,7 @@ const ClickSection = () => {
 
         {/* right side text */}
 
-        <div className="md:w-[50%]">
+        <div className="md:w-[50%] w-full">
           {/* headings */}
 
           <h1 className="main-heading pb-8">
@@ -30,7 +30,7 @@ const ClickSection = () => {
           </p>
 
           {/* cards */}
-          <div className="grid grid-row-1 gap-6 w-[80%] pb-5">
+          <div className="grid grid-row-1 gap-6 w-full max-w-xl md:max-w-2xl pb-5">
             <div className="card-style card">
               <h1 className="card-h1">🔥 Seamless Connections</h1>
               <p className="card-p">

@@ -31,7 +31,10 @@ const footer = () => {
         </div>
 
         {/* right side */}
-        <div className="flex gap-2 pt-8 sm:pt-0" style={{ marginBottom: "0" }}>
+        <div
+          className="flex gap-2 pt-8 sm:pt-0 flex-wrap gap-5"
+          style={{ marginBottom: "0" }}
+        >
           <img
             src={footerImg1}
             alt="payment phone image"

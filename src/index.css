@@ -1,22 +1,28 @@
 @import "tailwindcss";
 
 * {
-    max-width: 1920px;
-    margin: auto;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
 .card-style {
-    width: 320px;
-    height: 200px;
-    box-shadow:
-        -5px -5px 5px rgba(255, 255, 255, 1.0),
-        5px 5px 20px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	max-width: 320px;
+	height: auto;
+	box-shadow:
+		-5px -5px 5px rgba(255, 255, 255, 1.0),
+		5px 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 .card-user-says {
-    width: 320px;
-    min-height: 300px;
-    box-shadow:
+	width: 100%;
+	max-width: 300px;
+	min-height: 300px;
+	box-shadow:
         -5px -5px 5px rgba(255, 255, 255, 1.0),
         5px 5px 20px rgba(0, 0, 0, 0.25);
 }
@@ -34,9 +40,8 @@
 
 @media only screen and (max-width: 1340px) {
     .card-user-says {
-
-        width: 320px;
-        height: 300px;
+        width: 100%;
+        height: auto;
         box-shadow:
             -5px -5px 5px rgba(255, 255, 255, 1.0),
             5px 5px 20px rgba(0, 0, 0, 0.25);
@@ -45,7 +50,10 @@
 }
 
 .what-user-grid {
+    display: grid;
     grid-template-columns: 1fr;
+    gap: 1.5rem;
+    justify-items: center;
 }
 
 @media (min-width: 763px) and (max-width: 900px) {
@@ -69,14 +77,14 @@
 
 @layer components {
     .card {
-        @apply max-w-80 p-4 rounded-xl text-center
+        @apply w-full max-w-80 p-4 rounded-xl text-center
     }
 
     .card-h1 {
-        @apply pb-3 pt-2 font-semibold text-2xl
+        @apply pb-3 pt-2 font-semibold text-xl sm:text-2xl
     }
 
     .main-heading {
-        @apply font-semibold text-5xl
+        @apply font-semibold text-3xl sm:text-4xl md:text-5xl
     }
 }
