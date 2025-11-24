@@ -3,13 +3,13 @@
 
 const FeatureSection = () => {
   return (
-    <section className="bg-[#F2F2F2] pt-35">
+    <section id="features" className="bg-(--color-surface) pt-20">
       {/* Outer wrapper for the features section */}
 
-      <section className="w-[90%] max-w-6xl mx-auto">
+      <section className="section-container">
         {/* Headings */}
 
-        <div className="flex justify-center items-center flex-col gap-3 pb-18 w-full mx-auto">
+        <div className="flex justify-center items-center flex-col gap-3 pb-10 w-full mx-auto">
           <h1 className="main-heading">Features That Keep You Hooked!</h1>
           <h1 className="font-semibold text-2xl">
             Meet, Chat, Share - Anytime, Anywhere!
@@ -18,7 +18,7 @@ const FeatureSection = () => {
 
         {/* Feature cards grid */}
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full pb-12 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 justify-items-center gap-6 w-full pb-12 mx-auto">
           <div className="card-style card">
             <h1 className="card-h1">🔥 Seamless Connections</h1>
             <p className="card-p">

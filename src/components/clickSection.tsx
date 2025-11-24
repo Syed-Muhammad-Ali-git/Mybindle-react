@@ -5,15 +5,15 @@ import clickSectionImage from "../assets/images/Group 3.png";
 
 const ClickSection = () => {
   return (
-    <section className="bg-[#F2F2F2] pt-20">
-      <div className="flex justify-center items-center flex-col lg:flex-row flex-wrap w-[90%] max-w-6xl mx-auto">
+    <section id="clicks" className="bg-(--color-surface) pt-20">
+      <div className="flex justify-center items-center flex-col lg:flex-row flex-wrap section-container">
         {/* Mobile preview image on the left */}
 
         <div className="md:w-[50%] pb-7">
           <img
             src={clickSectionImage}
             alt="mobile images"
-            className="w-70 sm:w-110"
+            className="w-64 sm:w-80"
           />
         </div>
 
@@ -31,7 +31,7 @@ const ClickSection = () => {
           </p>
 
           {/* Feature cards describing key click-based interactions */}
-          <div className="grid grid-row-1 gap-6 w-full max-w-xl md:max-w-2xl pb-5">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-6 w-full max-w-4xl pb-5">
             <div className="card-style card">
               <h1 className="card-h1">🔥 Seamless Connections</h1>
               <p className="card-p">

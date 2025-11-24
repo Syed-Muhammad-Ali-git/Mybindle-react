@@ -4,8 +4,8 @@ import avatar from "../assets/images/avatar3 1.png";
 
 const WhatOurUserSays = () => {
   return (
-    <section className="bg-[#F2F2F2] pt-20">
-      <div className="w-[90%] max-w-6xl mx-auto">
+    <section id="testimonials" className="bg-(--color-surface) pt-20">
+      <div className="section-container">
         {/* Section heading */}
         <div className="pb-6">
           <h1 className="main-heading text-center">What Our Users Say</h1>
@@ -13,7 +13,7 @@ const WhatOurUserSays = () => {
 
         {/* Testimonial cards grid */}
 
-        <div className="grid grid-cols-1 2xl:grid-cols-3 what-user-grid gap-6 w-full pb-12 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full pb-12 justify-items-center">
           <div className="card-user-says card ">
             <img src={starsImg} alt="stars" className="pb-2 pr-0 sm:pr-20" />
             <h1 className="font-medium text-xl text-left">

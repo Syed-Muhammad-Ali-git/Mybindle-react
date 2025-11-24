@@ -6,28 +6,28 @@ import footerImg2 from "../assets/images/Stroke Body.png";
 
 const Footer = () => {
   return (
-    <section className="bg-[#FF5349]  rounded-3xl pt-20 mt-2">
+    <section id="download" className="rounded-3xl pt-20 mt-2" style={{ background: "linear-gradient(180deg, var(--color-primary) 0%, #ff6b63 50%, var(--color-primary) 100%)" }}>
       {/* Main footer content wrapper */}
 
-      <section className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 lg:px-16">
+      <section className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 lg:px-16 section-container">
         {/* Left side: text and download buttons */}
 
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <div
-            className="text-[#FAFAFA] font-semibold text-4xl md:text-5xl lg:text-6xl leading-tight"
+            className="text-(--color-on-primary) font-semibold text-4xl md:text-5xl lg:text-6xl leading-tight"
             style={{ marginBottom: "20px" }}
           >
             <h1>Join the Fun - Download</h1>
             <h1>MyBindle Now!</h1>
           </div>
 
-          <p className="text-[#FAFAFA] font-semibold text-lg leading-7 mt-6">
+          <p className="text-(--color-on-primary) font-semibold text-lg leading-7 mt-6">
             Your Social Network, Your Way Download MyBindle Now and Be a Part of
             a Community That’s Always Evolving!
           </p>
-          <button className="mt-12 inline-flex items-center justify-center rounded-full bg-white/95 px-4 py-2 shadow-md transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg">
+          <a href="#download" className="mt-12 inline-flex items-center justify-center rounded-full bg-white/95 px-4 py-2 shadow-md transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg">
             <img src={btnIcons} alt="apple and playstore btns" width={300} />
-          </button>
+          </a>
         </div>
 
         {/* Right side: illustrative phone images */}
