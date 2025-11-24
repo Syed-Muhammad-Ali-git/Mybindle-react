@@ -1,16 +1,16 @@
-// footer component 7th
+// Footer component 7th - final call-to-action to download the app
 
 import btnIcons from "../assets/images/apple-playstore.png";
 import footerImg1 from "../assets/images/Stroke Body (1).png";
 import footerImg2 from "../assets/images/Stroke Body.png";
 
-const footer = () => {
+const Footer = () => {
   return (
     <section className="bg-[#FF5349]  rounded-3xl pt-20 mt-2">
-      {/* sub hero section */}
+      {/* Main footer content wrapper */}
 
       <section className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 lg:px-16">
-        {/* left side  */}
+        {/* Left side: text and download buttons */}
 
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <div
@@ -25,14 +25,14 @@ const footer = () => {
             Your Social Network, Your Way Download MyBindle Now and Be a Part of
             a Community That’s Always Evolving!
           </p>
-          <button style={{ marginTop: "50px" }}>
+          <button className="mt-12 inline-flex items-center justify-center rounded-full bg-white/95 px-4 py-2 shadow-md transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg">
             <img src={btnIcons} alt="apple and playstore btns" width={300} />
           </button>
         </div>
 
-        {/* right side */}
+        {/* Right side: illustrative phone images */}
         <div
-          className="flex gap-2 pt-8 sm:pt-0 flex-wrap gap-5"
+          className="flex gap-5 pt-8 sm:pt-0 flex-wrap"
           style={{ marginBottom: "0" }}
         >
           <img
@@ -53,4 +53,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

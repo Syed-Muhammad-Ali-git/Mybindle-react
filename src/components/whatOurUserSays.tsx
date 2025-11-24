@@ -1,3 +1,4 @@
+// Testimonials section: shows feedback from different MyBindle users
 import starsImg from "../assets/images/Frame 1171276819.png";
 import avatar from "../assets/images/avatar3 1.png";
 
@@ -5,12 +6,12 @@ const WhatOurUserSays = () => {
   return (
     <section className="bg-[#F2F2F2] pt-20">
       <div className="w-[90%] max-w-6xl mx-auto">
-        {/* heading */}
+        {/* Section heading */}
         <div className="pb-6">
           <h1 className="main-heading text-center">What Our Users Say</h1>
         </div>
 
-        {/* cards */}
+        {/* Testimonial cards grid */}
 
         <div className="grid grid-cols-1 2xl:grid-cols-3 what-user-grid gap-6 w-full pb-12 justify-items-center">
           <div className="card-user-says card ">
@@ -98,7 +99,7 @@ const WhatOurUserSays = () => {
           </div>
         </div>
         <div className="flex justify-center items-center m-auto">
-          <button className="card-btn rounded font-semibold text-[#FF5349] text-2xl px-12 py-3 mb-20">
+          <button className="card-btn rounded-full font-semibold text-[#FF5349] text-2xl px-12 py-3 mb-20 bg-white shadow-md transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg">
             See More
           </button>
         </div>

@@ -1,12 +1,13 @@
 //  Feature section component 2nd
+//  Highlights the core features users get on MyBindle
 
 const FeatureSection = () => {
   return (
     <section className="bg-[#F2F2F2] pt-35">
-      {/* section 1 */}
+      {/* Outer wrapper for the features section */}
 
       <section className="w-[90%] max-w-6xl mx-auto">
-        {/* headings */}
+        {/* Headings */}
 
         <div className="flex justify-center items-center flex-col gap-3 pb-18 w-full mx-auto">
           <h1 className="main-heading">Features That Keep You Hooked!</h1>
@@ -15,7 +16,7 @@ const FeatureSection = () => {
           </h1>
         </div>
 
-        {/* cards */}
+        {/* Feature cards grid */}
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full pb-12 mx-auto">
           <div className="card-style card">

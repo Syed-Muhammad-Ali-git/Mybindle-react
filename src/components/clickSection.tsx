@@ -1,4 +1,5 @@
 //  Click section component 3rd
+//  Explains how every interaction / click builds connections on the platform
 
 import clickSectionImage from "../assets/images/Group 3.png";
 
@@ -6,7 +7,7 @@ const ClickSection = () => {
   return (
     <section className="bg-[#F2F2F2] pt-20">
       <div className="flex justify-center items-center flex-col lg:flex-row flex-wrap w-[90%] max-w-6xl mx-auto">
-        {/* mobil image left */}
+        {/* Mobile preview image on the left */}
 
         <div className="md:w-[50%] pb-7">
           <img
@@ -16,10 +17,10 @@ const ClickSection = () => {
           />
         </div>
 
-        {/* right side text */}
+        {/* Right side: heading and supporting text */}
 
         <div className="md:w-[50%] w-full">
-          {/* headings */}
+          {/* Headings */}
 
           <h1 className="main-heading pb-8">
             Where Every Click Sparks a Connection!
@@ -29,7 +30,7 @@ const ClickSection = () => {
             someone in need. Give from the heart and change a life!
           </p>
 
-          {/* cards */}
+          {/* Feature cards describing key click-based interactions */}
           <div className="grid grid-row-1 gap-6 w-full max-w-xl md:max-w-2xl pb-5">
             <div className="card-style card">
               <h1 className="card-h1">🔥 Seamless Connections</h1>

@@ -1,9 +1,10 @@
 //  install section component 4th
+//  Simple three-step guide explaining how to install the app
 
 const InstallSection = () => {
   return (
     <section className="bg-[#F2F2F2] pt-20">
-      {/* headings */}
+      {/* Headings */}
       <div className="text-center w-[90%] max-w-3xl mx-auto">
         <h1 className="main-heading pb-7">How to Install Our App</h1>
         <h2 className="pb-12 font-semibold">
@@ -13,7 +14,7 @@ const InstallSection = () => {
       </div>
 
       <div>
-        {/* cards */}
+        {/* Step cards */}
 
         <div className="flex flex-wrap justify-center items-center gap-6 w-full max-w-5xl mx-auto pb-12">
           <div className="card-style card">

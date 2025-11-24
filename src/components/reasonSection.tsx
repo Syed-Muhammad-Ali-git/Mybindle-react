@@ -1,4 +1,5 @@
 //  Reason section component 5th
+//  Donation-focused call-to-action encouraging users to make someone smile
 
 import lastImgHalf from "../assets/images/iPhone 14 Pro.png";
 import lastImgFull from "../assets/images/Stroke Body.png";
@@ -6,10 +7,10 @@ import lastImgFull from "../assets/images/Stroke Body.png";
 const ReasonSection = () => {
   return (
     <section className="bg-[#FF5349]  rounded-3xl">
-      {/* sub hero section */}
+      {/* Sub hero-style layout with text and phone imagery */}
 
       <section className="flex flex-col md:flex-row justify-center items-center px-4 md:px-8 lg:px-16">
-        {/* left side  */}
+        {/* Left side: emotional text and donate button */}
 
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
           <div
@@ -25,14 +26,13 @@ const ReasonSection = () => {
             support, and a brighter future. Give today and make a difference!
           </p>
           <button
-            className="text-[#FF5349] bg-[#F2F2F2] px-4 rounded-xl w-40 h-12 font-semibold text-lg"
-            style={{ marginTop: "20px" }}
+            className="mt-5 text-[#FF5349] bg-[#F2F2F2] px-6 rounded-full w-44 h-12 font-semibold text-lg shadow-md transition-transform duration-200 ease-out hover:-translate-y-0.5 hover:shadow-lg"
           >
             Donate Now
           </button>
         </div>
 
-        {/* right side */}
+        {/* Right side: phone images showing donation UI */}
         <div className="flex flex-wrap gap-5">
           <img
             src={lastImgHalf}
